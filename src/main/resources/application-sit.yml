@@ -1,0 +1,17 @@
+server:
+  port: 8181
+  context-path: /open-aml-web
+spring:
+  application:
+    name: open-aml-web
+  cloud:
+    consul:
+      host: 192.168.1.200
+      port: 8500
+      discovery:
+        service-name: ${spring.application.name}
+        prefer-ip-address: true
+        health-check-path: ${server.context-path}/health
+        instance-id: ${spring.application.name}-${spring.cloud.client.ipAddress}
+  zipkin:
+      base-url: http://192.168.1.200:9411
