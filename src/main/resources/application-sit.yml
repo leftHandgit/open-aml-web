@@ -1,5 +1,5 @@
 server:
-  port: 8181
+  port: 8183
   context-path: /open-aml-web
 spring:
   application:
