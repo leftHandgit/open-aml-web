@@ -1,0 +1,90 @@
+/************************分页*/
+/*分页样式*/
+.pager_container {
+    text-align: center;
+}
+.pager_container span:first-child {
+    margin: 0 5px 0 0;
+}
+.pager_container span,.pager_container a {
+    cursor: pointer;
+    color: #555;
+    display: inline-block;
+    border: 1px solid #e8e8e8;
+    height: 21px;
+    line-height: 21px;
+    padding: 3px 10px;
+    margin: 0 5px;
+    font-size: 14px;
+    text-decoration: none;
+    box-sizing: initial;
+    background: #fff;
+}
+.pager_container .current {
+    background-color: #38b4ee;
+    color: #fff;
+    font-weight: 700;
+    border-color: #38b4ee;
+}
+.pager_container a:hover {
+    background-color: #fff;
+    color: #38b4ee ;
+    border-color: #38b4ee;
+}
+.pager_container .next.current, .pager_container .prev.current {
+    color: silver !important;
+    cursor: default !important;
+    background-color: #fff;
+    font-weight: normal;
+    border-color: #e8e8e8;
+}
+
+.page {
+    float: left;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
+
+.pager_container span {
+    cursor: pointer;
+    color: #555;
+    display: inline-block;
+    border: 1px solid #e8e8e8;
+    height: 21px;
+    line-height: 21px;
+    padding: 3px 10px;
+    margin: 0 5px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.pager_container span:first-child {
+    margin: 0 5px 0 0;
+}
+
+.pager_container span:not(.pager_next_disabled):not(.pager_prev_disabled):hover {*/
+    background-color: #1cc493;
+    border-color: #1cc493;
+    text-decoration: none;
+    color: #fff;
+}
+
+.pager_container .pager_is_current {
+    background-color: #1cc493 !important;
+    color: #fff !important;
+    font-weight: 700;
+    border-color: #1cc493 !important;
+}
+
+.pager_container .pager_lgthen {
+    color: #337BAC;
+}
+
+.pager_container .pager_prev_disabled, .pager_container .pager_next_disabled, .pager_container .pager_lgthen_dis {
+    color: silver !important;
+    cursor: default !important;
+}
+
+
+#pagevalue{width:50px;    height: 25px;}

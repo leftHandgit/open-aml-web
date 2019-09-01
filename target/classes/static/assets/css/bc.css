@@ -1,0 +1,20 @@
+
+.btn-warning ,
+.btn-warning:hover {
+    color: #fff;
+    background-color: #66a4c1;
+    border-color: #66a4c1;
+}
+
+
+#searchData .btn-warning ,
+#searchData .btn-warning:hover {
+    color: #fff;
+    background-color: #f4f4f4;
+    border-color: #dddddd;
+    color: #777;
+}
+
+.badge-warning {
+    background-color: #fc3644;
+}
